@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.min.js"></script>
+    <style>
+        .theDiv {
+						background: black;
+									width: 100px;
+									height: 100px;
+									margin-top: 200px;
+					}
+					
+					body {
+						
+						height: 3000px;
+						color: aqua;
+					}
+    </style>
+</head>
+
+<body>
+    <div class="theDiv"></div>
+
+
+</body>
+
+<script>
+	$(document).ready(function(){
+		$('.theDiv').click(function() {
+			console.log('clicked');
+		})
+	});
+</script>
+
+</html>
